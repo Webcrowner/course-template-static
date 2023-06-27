@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/blog-style.css">
+  <link rel="stylesheet" media='screen and (max-width: 768px)' href="../css/mobile.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="images/png" href="../images/logo/onlinelearner-logo.png"> 
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+  <title> SinglePage | OnlineLearnal</title>
+  <script>
+    document.onkeydown = function (e) {
+      if (e.keyCode == 123) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+      }
+
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+      }
+    }
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    jQuery("img").mousedown(function () {
+      return false;
+    });
+
+  </script>
+</head>
+
+<body>
+  <div class="main-container nav-bg-color">
+    <div class="inside-container nav-contain">
+      <nav class="navbar navbar-expand-lg navbar-light "> <img src="../images/logo/onlinelearner-logo.png"
+          class="img-fluid" alt=""> <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-list ml-auto"> <a class="menu text-primary" href="../index.html"><i
+                class="fas fa-home"></i>HOME</a> <a class="menu" href="../courses.html">COURSES</a> <a class="menu"
+              href="../about us.html">ABOUT US</a>
+            <a class="menu  last-spc" href="../blog.html">BLOG</a> <span class="menu last-spc color-line"> | </span> <a
+              class="menu icon-color  last-spc"><i class="fas fa-search"></i></a> </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <section id="article">
+    <div class="page-container">
+      <article class="card"> <img src="../img/articles/covid19.jpg" alt="article"><br>
+        <h1 class='l-heading'>How to Utilize this pendemic period ?</h1><br>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci blanditiis minima voluptatem excepturi ullam ducimus laboriosam fugit in nihil. Harum rerum quos rem beatae ad voluptatem excepturi saepe officiis sint!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere velit molestias fugit rem obcaecati. Quam hic aliquam explicabo distinctio animi possimus voluptates, incidunt doloribus nemo itaque dolore, eum minima voluptatem.  
+        </p>
+        <p>
+          <font color="grey"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quas nostrum expedita voluptas eos ducimus quod amet modi! Accusamus magni rem qui quae veniam sunt eligendi repellendus vitae aliquam blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quis architecto tempora officiis pariatur sapiente, vitae, quo similique beatae molestiae doloremque veritatis dicta eos illum ratione aspernatur! Nemo, impedit nobis?
+            <br><br> </font><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, deserunt solute</b> 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus distinctio recusandae soluta repellendus quasi eius voluptatibus maiores voluptatum saepe eligendi doloremque alias ipsum explicabo, adipisci dolore aut. Rerum, quas.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero aut voluptate quisquam! Sit laborum obcaecati consequatur impedit qui fugiat laudantium ipsum iure consectetur, aliquam nostrum hic voluptatibus possimus nesciunt! Placeat!
+
+        </p>
+      </article>
+      <aside class="card bg-light sideblog">
+        <h2>Get Our Courses</h2>
+        <p>Get latest syllabus courses of school and plus 2 level for free. The courses are made for examination point
+          of view and it has made in simplier language, so dont miss the oppertunity and grab it by clicking the link
+          below. </p> <a href="#" class='btn btn-primary btn-block'>Go to Courses</a><br>
+        <aside id="categories" class="card">
+          <h2>Recents Blogs</h2>
+          <ul class="list">
+            <li><a href="singlepage.html">What to do after SEE?</a></li>
+            <li><a href="singlepage.html">Top 10 colleges in Kathmandu</a></li>
+            <li><a href="#">Tips to Learn and Memorization</a></li>
+            <li><a href="#">Scope of computer field in Nepal</a></li>
+          </ul>
+        </aside>
+        <aside id="categories" class="card">
+          <h2>Top Blogs</h2>
+          <ul class="list">
+            <li><a href="#">Top 10 scope courses in Nepal</a></li>
+            <li><a href="#">Top paying jobs in Nepal</a></li>
+            <li><a href="#">Scope of bachelor from Nepal!</a></li>
+            <li><a href="singlepage.html">Top Schools in Itahari!!!</a></li>
+          </ul>
+        </aside>
+      </aside>
+    </div>
+  </section>
+  
+  <!-- footer -->
+  <footer style="display: flex;">
+    <div id="left-footer">
+      <h3>Quick Links</h3>
+      <p>
+      <ul>
+        <li> <a href="../index.html">Home</a> </li>
+        <li> <a href="../blog.html">Blogs</a> </li>
+        <li> <a href="../courses.html">Our Courses</a> </li>
+        <li> <a href="#">Recent News</a> </li> 
+        <li> <a href="../contact.html">Contact</a> </li>
+      </ul>
+      </p>
+    </div>
+    <div id="right-footer">
+      <h3>Follow us on</h3>
+      <div id="social-media-footer">
+        <ul>
+          <li> <a href="#"> <i class="fab fa-facebook"></i> </a> </li>
+          <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+          <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+        </ul>
+      </div>
+      <p>This website is developed by <a href="#">Onlinelearnal Teams</a></p>
+      <center><span>&#169; 2020 All Rights Reserved.</span></center>
+      <p class="float-right"> <a href="#"><i class="fas fa-arrow-up arrow"></i></a> </p>
+    </div>
+  </footer> <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/blog-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media='screen and (max-width: 768px)' href="css/mobile.css"> <!-- font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="shortcut icon" type="images/png" href="images/logo/ol.png">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+    <title>Educational Blog | onlinelearnal</title>
+    <style>
+        a:hover {
+            text-decoration: none;
+            color: rgb(216, 177, 3);
+        }
+
+        a {
+            color: rgb(36, 31, 31);
+        }
+    </style>
+    <script>
+        document.onkeydown = function (e) {
+            if (e.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+                return false;
+            }
+        }
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
+        jQuery("img").mousedown(function () {
+            return false;
+        });
+
+    </script>
+</head>
+
+<body> <!--menu-->
+    <div class="main-container nav-bg-color">
+        <div class="inside-container nav-contain">
+            <nav class="navbar navbar-expand-lg navbar-light "> <img src="images/logo/ol.png" class="img-fluid"
+                    alt="OnlineLearner"> <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav-list ml-auto"> <a class="menu text-primary" href="index.html"><i
+                                class="fas fa-home"></i>HOME</a> <a class="menu" href="courses.html">COURSES</a> <a
+                            class="menu" href="about us.html">ABOUT US</a> <a class="menu"
+                            href="blogpost/singlepage.html">BLOG</a>
+                        <span class="menu last-spc color-line"> | </span> <a class="menu icon-color  last-spc"><i
+                                class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <header id='blog-banner'>
+        <div class="container">
+            <div class="blog-banner-container">
+                <div class="blog-banner-content">
+                    <h1>
+                        <font color="yellow"><b>BLOGs</b></font>
+                    </h1>
+                    <p>
+                        <font size="4">OnlineLearnal not only provides you the course notes but also gives you various
+                            ideas related to technological and educational context, so be with us. </font>
+                    </p> <a href="courses.html"><button class="work-btn">OUR COURSES</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home-articles" class="py-2">
+        <div class="container"> <br>
+            <center>
+                <h2><b>
+                        <font color="#000099"> Recent Blogs<br></font>
+                    </b></h2>
+            </center>
+            <div class="articles-container"> <!-- 1st blog card -->
+                <article class="card">
+                    <h3> <a href="blogpost/singlepage.html">What after SEE?</a> </h3> <img
+                        src="img/articles/aftersee.jpg" alt="photo"><br>
+                    <p>There is always a great confusion arise to all the students, which subject to choose and what
+                        pathway to follow after SEE examination. So, regarding to this context, we have given summary of
+                        different courses available in Nepal. Plus
+                        Two one of the most popular course as it allow to walk on the path to Engineering and Medicine.
+                    </p>
+                </article> <!-- end 1st  --> <!-- 2nd blog card -->
+                <article class="card"> <img src="img/articles/topclz.jpg" alt="photo"><br>
+                    <h3> <a href="blogpost/singlepage.html">Top 10 colleges in Kathmandu</a> </h3>
+                    <p>In the context, to join college in Nepal many students got dilemma, what colleges to join? But
+                        the study totally depends upon you With the view of students and parents who wish to get their
+                        higher education in most reputed and publicly known colleges from kathmandu, we have collected
+                        10 different colleges.</p>
+                </article> <!-- end 2nd  --> <!-- 3rd blog card -->
+                <article class="card">
+                    <font size="1"><b>Ads</b></font>
+
+                    <h3> <a href="#">Hydri College</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita exercitationem voluptas aliquam
+                        perspiciatis, commodi magni, ipsam earum saepe illo quia, blanditiis aliquid? Fugiat, minima
+                        deserunt ducimus itaque accusamus autem eius?</p>
+                    <video width="100%" height="250" controls>
+                        <source src="video/ac.mp4" type="video/mp4">
+
+                        Your browser does not support the video tag.
+                    </video>
+                </article> <!-- end third -->
+            </div> <br>
+            <h2>
+                <center><b>
+                        <font color="#000099">Featured Blogs</font>
+                    </b></center>
+            </h2>
+            <div class="articles-container"> <!-- 4th start  -->
+                <article class="card">
+                    <h3> <a href="https://en.wikipedia.org/wiki/Memorization" target="blank">Tips to Learn and
+                            Memorization</a> </h3>
+                    <p>Every students should start to learn by making routines. It helps to divide the subject and save
+                        the time. You should focus on each word and try to collect information. If you are not able to
+                        collect it spend more time on it or also you can change your location during study time. Talk to
+                        yourself about what you have memorize in a loud voice so that you can keep records in brain.
+                    </p> <img src="img/articles/learntips.jpg" alt="photo">
+                </article> <!-- forth  end --> <!-- fifth start  -->
+                <article class="card"> <img src="img/articles/tech2.jpg" alt="photo">
+                    <h3> <a href="#"><br>Evolution and Generation of Computer</a> </h3>
+                    <p>Computer is an electrical, electronic and digital device that accepts
+                        input from the user, processes them and produce meaningful
+                        information through desirable output devices. It is used worldwide and got many advantages. The
+                        evolution takes place through mechanical and electronic era. Mechanical era produce to the
+                        devices which didn't use electricity and neither they were automated.</p>
+                </article> <!-- fifth end  --> <!-- sixth start  -->
+                <article class="card bg-secondary">
+                    <h3> <a href="#">Top schools in Itahari</a> </h3>
+                    <p>School is the place where students needs mentally and physically healthy. So, beside studying
+                        extra curriculum activities is also necessary for students. With the view of that we have listed
+                        some schools that gives caring environment to children:</p>
+                    <hr color="white">
+                    <h3> <a href="../index.html">Get more about Onlinelearnal!</a> </h3>
+                    <p> Here you will get all the topic necessary for your examination point of view.We not only
+                        provides you useful notes but also interact your doubt questions. We also gives you various
+                        ideas related to technological and educational context </p>
+                </article> <!-- 6th end -->
+            </div>
+        </div>
+        </div>
+    </section> <!-- footer -->
+    <footer style="display: flex;">
+        <div id="left-footer">
+            <h3>Quick Links</h3>
+            <p>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="blog.html">Blogs</a> </li>
+                <li> <a href="courses.html">Our Courses</a> </li>
+                <li> <a href="#">Recent News</a> </li>
+                <li> <a href="contact.html">Contact</a> </li>
+            </ul>
+            </p>
+        </div>
+        <div id="right-footer">
+            <h3>Follow us on</h3>
+            <div id="social-media-footer">
+                <ul>
+                    <li> <a href="#"> <i class="fab fa-facebook"></i> </a> </li>
+                    <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
+                    <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+                </ul>
+            </div>
+            <p>This website is developed by <a href="#">OnlineLearnal Teams</a></p>
+            <center><span>&#169; 2020 <a href=""></a>. All Rights Reserved.</span> </center>
+            <p class="float-right"> <a href="#"><i class="fas fa-arrow-up arrow"></i></a> </p>
+        </div>
+    </footer> <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="shortcut icon" type="images/png" href="images/logo/ol.png">
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Contact-Us</title>
+  <script>
+    document.onkeydown = function (e) {
+      if (e.keyCode == 123) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+      }
+      if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+      }
+
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+      }
+    }
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    jQuery("img").mousedown(function () {
+      return false;
+    });
+
+  </script>
+  <style>
+    .service-list {
+      background-color: rgba(223, 205, 156, 0.829);
+      cursor: pointer;
+      color: rgb(17, 70, 10);
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    .contact-social {
+      border-radius: 80px;
+    }
+
+    @media(max-width: 768px) {
+      .service-list {
+
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+
+
+  <!--menu-->
+
+
+
+
+  <div class="main-container nav-bg-color">
+    <div class="inside-container nav-contain">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <img src="images/logo/ol.png" class="img-fluid" alt="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav-list ml-auto">
+            <a class="menu text-primary" href="index.html"><i class="fas fa-home"></i>HOME</a>
+            <a class="menu" href="courses.html">COURSES</a>
+            <a class="menu" href="blog.html">BLOG</a>
+            <a class="menu" href="about us.html">ABOUT US</a>
+            <span class="menu last-spc color-line"> | </span>
+            <a class="menu icon-color  last-spc"><i class="fas fa-search"></i></a>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <section>
+
+    <div class="container">
+      <div class="p-5" style="background-color: rgb(223, 195, 130); color: rgb(12, 11, 11);border-radius: 10px;">
+
+        <center>
+          <div class="row text-center">
+
+            <div class="contact-social col-md-4">
+              <a href="#">
+                <div class="service-list  py-5" style="border-radius: 0px;">
+                  <center><img src="images/socialmedia/facebook.png" style="height: 80px; width: 80px;"
+                      class="img-fluid"></center>
+                  <br>
+                  <h3>Contact us in Facebook</h3><br>
+
+                </div>
+              </a>
+            </div>
+
+            <div class="contact-social col-md-4">
+              <a href="#">
+                <div class="service-list py-5" style="border-radius: 0px;">
+                  <center><img src="images/socialmedia/insta.png" style="height: 80px; width: 80px;" class="img-fluid">
+                  </center>
+                  <br>
+                  <h3>Contact us in Instagram</h3><br>
+
+                </div>
+              </a>
+            </div>
+            <div class="contact-social col-md-4">
+              <a href="#">
+                <div class="service-list py-5" style="border-radius: 0px;">
+                  <center><img src="images/socialmedia/twitter.png" style="height: 80px; width: 80px;"
+                      class="img-fluid"></center>
+                  <br>
+                  <h3>Contact us in Twitter</h3><br>
+
+                </div>
+              </a>
+            </div>
+          </div>
+          <hr>
+        </center>
+        <br>
+        <div class="h1 pb-3 text-center">
+          Drop your message
+          <hr>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="username">* Name:</label>
+            <input class="form-control" id="username" name="username" type="username" required="true"
+              placeholder="Enter Your Name">
+          </div>
+          <div class="form-group">
+            <label for="email">* Email:</label>
+            <input class="form-control" id="email" required="true" name="email" type="email"
+              placeholder="Enter your Email here">
+          </div>
+          <div class="form-group">
+            <label for="Field">* Subjects:-</label><br>
+            <select class="px-4 mt-2" required="true">
+              <option>:Select:</option>
+              <option>Any Problem</option>
+              <option>Suggestion</option>
+              <option>Content queries</option>
+              <option>Any question</option>
+              <option>Being part</option>
+              <option>Others</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="pwd">* Your Queries:-</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" required="true" placeholder="Your Queries"
+              rows="5"></textarea>
+          </div>
+          <center>
+            <a href="#"><input type="submit" name="submit"
+                style="background-color: rgb(51, 50, 50);color: blanchedalmond; border-radius: 10px;height: 40px;"></a>
+          </center>
+        </form>
+      </div>
+    </div>
+  </section><br>
+
+
+
+  <!-- footer -->
+  <footer>
+    <div id="left-footer">
+      <h3>Quick Links</h3>
+      <p>
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="blog.html">Blogs</a>
+        </li>
+        <li>
+          <a href="courses.html">Our Courses</a>
+        </li>
+        <li>
+          <a href="blog.html">Recent News</a>
+        </li>
+
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      </p>
+
+    </div>
+    <div id="right-footer">
+      <h3>Follow us on</h3>
+      <div id="social-media-footer">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p>This website is developed by <a href="#">OnlineLearnal Teams</a></p>
+      <center><span>&#169; 2020 <a href="#"></a>. All Rights Reserved.</span>
+      </center>
+      <p class="float-right">
+        <a href="#"><i class="fas fa-arrow-up arrow"></i></a>
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
